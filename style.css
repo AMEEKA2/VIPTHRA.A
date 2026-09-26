@@ -1,0 +1,51 @@
+/* GET IN TOUCH section ka background halka grey/blue */
+#get-in-touch,
+.contact-section {
+    background: #2563eb !important;
+    padding: 60px 0;
+}
+
+/* Teenon cards ka color - white with shadow taki dikhe */
+.EmailUs,
+.CallUs,
+.VisitUs,
+div:has(> h3) {
+    background: #2563eb !important;
+    border: 1px solid #e8ecf1 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06) !important;
+    padding: 30px !important;
+}
+
+/* Icon ka color - Vipthra ka blue/black theme */
+h3 {
+    color: #0a192f !important;
+}
+
+/* Agar icon ka color change karna hai to - red se blue */
+i,
+svg {
+    color: #2563eb !important;
+}
+
+/* Blue cards ko final touch */
+.info-card {
+    background: #0d7aff !important;
+    /* aap wala blue */
+    border-radius: 16px !important;
+}
+
+.info-card h3,
+.info-card h3 strong {
+    color: white !important;
+    font-weight: 800 !important;
+    /* extra bold */
+    font-size: 18px !important;
+}
+
+.info-card p,
+.info-card p strong {
+    color: #e6f0ff !important;
+    font-weight: 700 !important;
+    /* bold */
+}
